@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(5, 171, 177);
+    padding: 10px;
+  }
+  
+  
+  .columns{
+    border: 3px solid rgb(151, 20, 129);
+    display: flex;
+  }
+  .columns > div{
+    border: 1px solid rgb(248, 233, 246);
+    flex: 1;
+  }
+  .columns > div:nth-of-type(2){
+    flex: 2;
+  }
+  
