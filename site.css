@@ -3,16 +3,48 @@ body{
     padding: 10px;
   }
   
-  
+  /* Colums Container */
   .columns{
     border: 3px solid rgb(151, 20, 129);
     display: flex;
   }
+  /* Every child div of the columns container */
   .columns > div{
     border: 1px solid rgb(248, 233, 246);
     flex: 1;
   }
+
+  /* The second div element of the parent 'columns' */
   .columns > div:nth-of-type(2){
     flex: 2;
+  }
+
+  /* Mobile first */
+  .desktop, 
+  .printer{
+    display: none;
+  }
+
+  /* Print */
+
+  @media print {
+    .mobile, .desktop{
+      display: none;
+    }
+ 
+    .printer{
+      display: block;
+    }
+
+  }
+
+  /* Desktop */
+  @media screen and (min-width: 768px){
+    .mobile{
+      display: none;
+    }
+    .desktop{
+      display: block;
+    }
   }
   
