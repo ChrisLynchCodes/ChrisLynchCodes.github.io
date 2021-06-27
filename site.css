@@ -18,7 +18,9 @@ body{
   .columns > div:nth-of-type(2){
     flex: 2;
   }
-
+.print{
+  align-items: center;
+}
   /* Mobile first */
   .desktop, 
   .printer{
