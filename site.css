@@ -39,7 +39,7 @@ body{
   }
 
   /* Desktop */
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 992px){
     .mobile{
       display: none;
     }
