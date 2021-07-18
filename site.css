@@ -11,15 +11,14 @@ body{
   /* Every child div of the columns container */
   .columns > div{
     border: 1px solid rgb(248, 233, 246);
-    flex: 1;
+    flex: 0;
   }
 
   /* The second div element of the parent 'columns' */
   .columns > div:nth-of-type(2){
     flex: 2;
   }
-
-  .print{
+.print{
   align-items: center;
 }
   /* Mobile first */
@@ -28,10 +27,6 @@ body{
     display: none;
   }
 
-  .colum-one,
-  .column-three{
-    display: none;
-  }
   /* Print */
 
   @media print {
@@ -42,10 +37,6 @@ body{
     .printer{
       display: block;
     }
-    .colum-one,
-  .column-three{
-    display: block;
-  }
 
   }
 
@@ -57,9 +48,5 @@ body{
     .desktop{
       display: block;
     }
-    .colum-one,
-  .column-three{
-    display: block;
-  }
   }
   
