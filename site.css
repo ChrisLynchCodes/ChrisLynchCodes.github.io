@@ -29,7 +29,7 @@ body{
   }
 
   .colum-one,
-  .column-two{
+  .column-three{
     display: none;
   }
   /* Print */
@@ -42,6 +42,10 @@ body{
     .printer{
       display: block;
     }
+    .colum-one,
+  .column-three{
+    display: block;
+  }
 
   }
 
@@ -53,5 +57,9 @@ body{
     .desktop{
       display: block;
     }
+    .colum-one,
+  .column-three{
+    display: block;
+  }
   }
   
