@@ -18,7 +18,8 @@ body{
   .columns > div:nth-of-type(2){
     flex: 2;
   }
-.print{
+
+  .print{
   align-items: center;
 }
   /* Mobile first */
@@ -27,6 +28,10 @@ body{
     display: none;
   }
 
+  .colum-one,
+  .column-two{
+    display: none;
+  }
   /* Print */
 
   @media print {
